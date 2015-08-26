@@ -3,3 +3,4 @@ tab = read.csv("msleep_ggplot2.csv")
 
 plot(tab$brainwt, tab$sleep_total, log='x')
 mean(tab$sleep_total[tab$sleep_total > 18])
+which(tab$sleep_total > 18 & tab$sleep_rem < 3)
