@@ -1,0 +1,3 @@
+[submodule "dagdata"]
+	path = dagdata
+	url = https://github.com/genomicsclass/dagdata
